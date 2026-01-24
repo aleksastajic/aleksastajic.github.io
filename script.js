@@ -158,13 +158,23 @@ function displayRepos(repos) {
     const card = document.createElement('div');
     card.className = 'card';
     const avatar = r.owner && r.owner.avatar ? `<img class="repo-avatar" src="${r.owner.avatar}" alt="${escapeHtml(r.owner.login)} avatar" width="48" height="48"/>` : `<div class="avatar-fallback">${escapeHtml((r.name||'')[0])}</div>`;
+
+    // Limit topics shown to at most 5; show a +N badge if there are more
+    let topicsHtml = '';
+    if (r.topics && r.topics.length) {
+      const shown = r.topics.slice(0,5);
+      let inner = shown.map(t => `<span class="topic">${escapeHtml(t)}</span>`).join('');
+      if (r.topics.length > 5) inner += `<span class="topic">+${r.topics.length - 5}</span>`;
+      topicsHtml = `<div class="topics">${inner}</div>`;
+    }
+
     card.innerHTML = `
       <div style="display:flex;gap:0.8rem;align-items:center">
         ${avatar}
         <div style="flex:1">
           <h3 style="margin:0;">${escapeHtml(r.name)} <span class="badge">${escapeHtml(r.language)}</span></h3>
           <p style="margin:0.35rem 0;color:var(--muted);font-size:0.95rem">${escapeHtml(r.description)}</p>
-          ${r.topics && r.topics.length ? `<div class="topics">${r.topics.map(t=>`<span class="topic">${escapeHtml(t)}</span>`).join('')}</div>` : ''}
+          ${topicsHtml}
           <div class="meta">
             <a class="badge" href="${r.html_url}" target="_blank" rel="noopener noreferrer">Repo</a>
             ${r.homepage ? `<a class="badge" href="${r.homepage}" target="_blank" rel="noopener noreferrer">Live</a>` : ''}

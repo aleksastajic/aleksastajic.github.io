@@ -2,49 +2,117 @@
   {
     "slug": "aleksastajic/lite-erp-backend",
     "name": "lite-erp-backend",
-    "description": "Lightweight ERP backend with Kotlin & Spring Boot.",
+    "description": "Lite ERP backend - products, orders, inventory audit trail, analytics ",
     "html_url": "https://github.com/aleksastajic/lite-erp-backend",
-    "language": "Maven",
-    "stargazers_count": 42,
+    "language": "Java",
+    "stargazers_count": 0,
     "homepage": "",
-    "owner": { "login": "aleksastajic", "avatar": "https://github.com/aleksastajic.png", "url": "https://github.com/aleksastajic" },
-    "pushed_at": "2026-01-22T14:12:00Z",
-    "topics": ["erp","spring-boot","kotlin","backend"]
+    "pushed_at": "2026-01-23T20:24:14Z",
+    "topics": [
+      "analytics",
+      "audit-log",
+      "backend",
+      "docker",
+      "erp",
+      "inventory-management",
+      "java",
+      "microservice",
+      "order-management",
+      "postgresql",
+      "product-catalog",
+      "rest-api"
+    ],
+    "owner": {
+      "login": "aleksastajic",
+      "avatar": "https://avatars.githubusercontent.com/u/151286096?v=4",
+      "url": "https://github.com/aleksastajic"
+    }
   },
   {
     "slug": "aleksastajic/spring-react-task-manager",
     "name": "spring-react-task-manager",
-    "description": "Task manager example: Spring Boot backend + React frontend.",
+    "description": "Full-stack task management application with Spring Boot backend and React frontend",
     "html_url": "https://github.com/aleksastajic/spring-react-task-manager",
-    "language": "Java",
-    "stargazers_count": 18,
+    "language": "HTML",
+    "stargazers_count": 0,
     "homepage": "",
-    "owner": { "login": "aleksastajic", "avatar": "https://github.com/aleksastajic.png", "url": "https://github.com/aleksastajic" },
-    "pushed_at": "2026-01-18T09:30:00Z",
-    "topics": ["spring","react","full-stack","example"]
+    "pushed_at": "2026-01-23T20:22:53Z",
+    "topics": [
+      "authentication",
+      "backend",
+      "docker",
+      "frontend",
+      "full-stack",
+      "java",
+      "javscript",
+      "react",
+      "rest-api",
+      "spring-boot",
+      "task-manager",
+      "todo"
+    ],
+    "owner": {
+      "login": "aleksastajic",
+      "avatar": "https://avatars.githubusercontent.com/u/151286096?v=4",
+      "url": "https://github.com/aleksastajic"
+    }
   },
   {
     "slug": "aleksastajic/webhook-processor",
     "name": "webhook-processor",
-    "description": "Reliable webhook processing service with retries and idempotency.",
+    "description": "Reliable, extensible webhook processor: validation, deduplication, routing, and retries",
     "html_url": "https://github.com/aleksastajic/webhook-processor",
     "language": "Python",
-    "stargazers_count": 7,
+    "stargazers_count": 0,
     "homepage": "",
-    "owner": { "login": "aleksastajic", "avatar": "https://github.com/aleksastajic.png", "url": "https://github.com/aleksastajic" },
-    "pushed_at": "2026-01-05T11:10:00Z",
-    "topics": ["webhooks","python","resilience"]
+    "pushed_at": "2026-01-23T20:27:06Z",
+    "topics": [
+      "dead-letter-queue",
+      "deduplication",
+      "docker",
+      "event-processing",
+      "http",
+      "idempotency",
+      "metrics",
+      "observability",
+      "python",
+      "retries",
+      "webhook-processor",
+      "webhooks"
+    ],
+    "owner": {
+      "login": "aleksastajic",
+      "avatar": "https://avatars.githubusercontent.com/u/151286096?v=4",
+      "url": "https://github.com/aleksastajic"
+    }
   },
   {
     "slug": "aleksastajic/banking-ledger-api",
     "name": "banking-ledger-api",
-    "description": "Double-entry ledger API for banking operations (research project).",
+    "description": "Double-entry ledger API \u2014 Spring Boot service with idempotent journal writes and integrity checks.",
     "html_url": "https://github.com/aleksastajic/banking-ledger-api",
     "language": "Java",
-    "stargazers_count": 12,
+    "stargazers_count": 0,
     "homepage": "",
-    "owner": { "login": "aleksastajic", "avatar": "https://github.com/aleksastajic.png", "url": "https://github.com/aleksastajic" },
-    "pushed_at": "2025-12-30T13:00:00Z",
-    "topics": ["ledger","finance","api","postgresql"]
+    "pushed_at": "2026-01-23T20:20:42Z",
+    "topics": [
+      "accounting",
+      "audit-log",
+      "banking",
+      "double-entry",
+      "finance",
+      "idempotency",
+      "java",
+      "ledger",
+      "postgresql",
+      "rest-api",
+      "spring-boot",
+      "transactions"
+    ],
+    "owner": {
+      "login": "aleksastajic",
+      "avatar": "https://avatars.githubusercontent.com/u/151286096?v=4",
+      "url": "https://github.com/aleksastajic"
+    }
   }
 ]

@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "aleksastajic/lite-erp-backend",
+    "name": "lite-erp-backend",
+    "description": "Lightweight ERP backend with Kotlin & Spring Boot.",
+    "html_url": "https://github.com/aleksastajic/lite-erp-backend",
+    "language": "Maven",
+    "stargazers_count": 42,
+    "homepage": "",
+    "owner": { "login": "aleksastajic", "avatar": "https://github.com/aleksastajic.png", "url": "https://github.com/aleksastajic" },
+    "pushed_at": "2026-01-22T14:12:00Z",
+    "topics": ["erp","spring-boot","kotlin","backend"]
+  },
+  {
+    "slug": "aleksastajic/spring-react-task-manager",
+    "name": "spring-react-task-manager",
+    "description": "Task manager example: Spring Boot backend + React frontend.",
+    "html_url": "https://github.com/aleksastajic/spring-react-task-manager",
+    "language": "Java",
+    "stargazers_count": 18,
+    "homepage": "",
+    "owner": { "login": "aleksastajic", "avatar": "https://github.com/aleksastajic.png", "url": "https://github.com/aleksastajic" },
+    "pushed_at": "2026-01-18T09:30:00Z",
+    "topics": ["spring","react","full-stack","example"]
+  },
+  {
+    "slug": "aleksastajic/webhook-processor",
+    "name": "webhook-processor",
+    "description": "Reliable webhook processing service with retries and idempotency.",
+    "html_url": "https://github.com/aleksastajic/webhook-processor",
+    "language": "Python",
+    "stargazers_count": 7,
+    "homepage": "",
+    "owner": { "login": "aleksastajic", "avatar": "https://github.com/aleksastajic.png", "url": "https://github.com/aleksastajic" },
+    "pushed_at": "2026-01-05T11:10:00Z",
+    "topics": ["webhooks","python","resilience"]
+  },
+  {
+    "slug": "aleksastajic/banking-ledger-api",
+    "name": "banking-ledger-api",
+    "description": "Double-entry ledger API for banking operations (research project).",
+    "html_url": "https://github.com/aleksastajic/banking-ledger-api",
+    "language": "Java",
+    "stargazers_count": 12,
+    "homepage": "",
+    "owner": { "login": "aleksastajic", "avatar": "https://github.com/aleksastajic.png", "url": "https://github.com/aleksastajic" },
+    "pushed_at": "2025-12-30T13:00:00Z",
+    "topics": ["ledger","finance","api","postgresql"]
+  }
+]

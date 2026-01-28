@@ -36,7 +36,7 @@
     "language": "HTML",
     "stargazers_count": 0,
     "homepage": "",
-    "pushed_at": "2026-01-23T20:22:53Z",
+    "pushed_at": "2026-01-26T15:38:20Z",
     "topics": [
       "authentication",
       "backend",
@@ -89,12 +89,12 @@
   {
     "slug": "aleksastajic/banking-ledger-api",
     "name": "banking-ledger-api",
-    "description": "Double-entry ledger API \u2014 Spring Boot service with idempotent journal writes and integrity checks.",
+    "description": "Double-entry ledger API - Spring Boot service with idempotent journal writes and integrity checks.",
     "html_url": "https://github.com/aleksastajic/banking-ledger-api",
     "language": "Java",
     "stargazers_count": 0,
     "homepage": "",
-    "pushed_at": "2026-01-23T20:20:42Z",
+    "pushed_at": "2026-01-27T18:06:08Z",
     "topics": [
       "accounting",
       "audit-log",

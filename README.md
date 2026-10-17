@@ -1,4 +1,4 @@
-# Aleksa Stajić — Portfolio
+# Aleksa Stajić - Portfolio
 
 A lightweight, static portfolio for GitHub Pages. Built with semantic HTML, responsive CSS, and a small optional script to keep the footer year current. No build step, external fonts, or runtime dependencies.
 
@@ -8,7 +8,7 @@ From this directory, run `python -m http.server 8000` and open http://localhost:
 
 ## Content
 
-- `index.html`: profile, ENABL3 experience, curated projects, skills, and contact links. All content works without JavaScript.
+- `index.html`: profile, experience, curated projects, skills, and contact links. All content works without JavaScript.
 - `styles.css`: dark theme, responsive layouts, and keyboard focus styles.
 - `script.js`: optional footer year update.
 - `cv/resume.pdf`: downloadable CV.
